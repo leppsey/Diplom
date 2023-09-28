@@ -1,6 +1,6 @@
 package com.example.coolpropapp.api
 
-public class Fluid(
-    var name: String
-
+public class FluidResponse(
+    var error: String,
+    var response: String
 )

@@ -1,3 +1,6 @@
 package com.example.coolpropapp.api
 
-data class FluidError()
+data class FluidError(
+    var error: String,
+    var response: String
+)
